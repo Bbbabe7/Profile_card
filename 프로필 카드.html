@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile card</title>
+    <link rel="stylesheet" href="프로필 카드.css">
+    <script src="https://kit.fontawesome.com/c8410d80c8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <video class="bg_video" src="bgvideo5.mp4" autoplay muted loop></video>
+        <div class="profile_wrap">
+            <div class="profile box1">
+                <div class="cube_wrap">
+                    <div class="cube">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            <!-- ------------------------- profile box1 ---------------------------------- -->
+                <div class="card_img"><img src="sky.jpg" alt=""></div>
+                <div class="bottom_box">
+                    <img id="profile_img" src="KakaoTalk_20230810_221320970.jpg" alt="">
+                    <div id="profile_contents">
+                        <div id="profile_name">
+                            <h3><i class="fa-regular fa-hand fa-shake" style="color: #ffda1f;"></i>&nbsp;&nbsp;&nbsp;Hello, I'm Chanhee</h3>
+                        </div>
+                        <p>&nbsp;&nbsp;&nbsp;DCX Data Analyst</p>
+                        <p>&nbsp;&nbsp;&nbsp;Suwon, Korea</p>
+                        <div class="link_box">
+                            <button class="link_btn" id="instagram"><i class="fa-brands fa-instagram fa-2x" style="color: #fc3bf6;"></i></button>
+                            <button class="link_btn" id="email"><i class="fa-regular fa-envelope fa-2x" style="color: #6ca2fe;"></i></button>
+                            <button class="link_btn" id="chat"><i class="fa-regular fa-comments fa-2x" style="color: #3cc039;"></i></button>
+                        </div>
+                        </div>
+                </div>
+                <div class="msg_box hidden fadein">
+                    <div id="msg_header">
+                        <button id="x_btn"><i class="fa-solid fa-xmark fa-1x" style="color: #000000;"></i></button>
+                        <div id="msg_title"><h2>메시지 보내기❤️</h2></div>
+                    </div>
+                    <div id="msg_main">
+                        <h3>Title</h3>
+                        <textarea id="text_title" cols="30" rows="1"></textarea>
+                        <p>메시지를 작성해주세요</p>
+                        <textarea id="text_area" cols="30" rows="8"></textarea>
+                    </div>
+                    <div id="msg_footer">
+                        <div id="time"></div>
+                        <button id="send_btn"><i class="fa-regular fa-paper-plane fa-1x" style="color: #000000;"></i></button>
+                    </div>
+                </div>
+            </div>
+        <!-- ------------------------- profile box2 ---------------------------------- -->
+            <div class="profile box2">
+                <div class="top"></div>
+                <div class="left"></div>
+                <div class="right"></div>
+                <div class="bottom"></div>
+    
+                <button class="icon" id="icon1"><i class="fa-regular fa-id-card fa-3x" style="color: #000000;"></i></button>
+                <button class="icon" id="icon2"><i class="fa-solid fa-graduation-cap fa-3x" style="color: #000000;"></i></button>
+                <button class="icon" id="icon3"><i class="fa-solid fa-paw fa-3x" style="color: #000000;"></i></button>
+                <button class="icon" id="icon4"><i class="fa-solid fa-headphones fa-3x" style="color: #000000;"></i></button>
+                <button class="icon" id="icon5"><i class="fa-solid fa-dumbbell fa-3x" style="color: #000000;"></i></button>
+                <button class="icon" id="icon6"><i class="fa-solid fa-chalkboard-user fa-3x" style="color: #000000;"></i></button>
+                
+                <div class="blank1"></div>
+                <div class="blank2"></div>
+                <div class="blank3"></div>
+                <div class="blank4"></div>
+                
+                <div class="profile pop_wrap hidden">
+                    <div class="profile pop">
+                        <div class="header">
+                            <button class="back"><i class="fa-solid fa-angles-left fa-2x"></i></button>
+                            <h1 class="title">소개</h2>
+                            <div class="mini_icon"><i class="fa-regular fa-id-card fa-2x" style="color: #000000;"></i></div>
+                        </div>
+                        <div class="main">
+                            <h3>#외내향인 #웹 만들기 짜릿해</h3><br>
+                            <p>안녕하세요😀<br>
+                                저는 EBTI 'E' 'I'를 모두 가지고 있는<br>
+                                반반 무많이 같은 성격의 27살 염찬희입니다!<br>
+                                <br>
+                                뭐든 경험해보는 것을 좋아하지만<br>
+                                의외로 호불호가 확실하고,<br>
+                                제가 좋아하는 일을 할 때는<br>
+                                누구보다 열중하는 성격이랍니다 👀
+                            </p>
+                        </div>
+                        <div class="footer">
+                            <button class="page_btn before" id="before1"><i class="fa-solid fa-arrow-left-long fa-2x" style="color: #000000;"></i></button>
+                            <p>1/6</p>
+                            <button class="page_btn next" id="next1"><i class="fa-solid fa-arrow-right-long fa-2x"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="profile pop_wrap hidden">
+                    <div class="profile pop">
+                        <div class="header">
+                            <button class="back"><i class="fa-solid fa-angles-left fa-2x"></i></button>
+                            <h1 class="title">전공</h2>
+                            <div class="mini_icon"><i class="fa-solid fa-graduation-cap fa-2x" style="color: #000000;"></i></div>
+                        </div>
+                        <div class="main">
+                            <img id="russia" src="./flag-3002212_1920.png" alt="">
+                            <h3>Здравствуйте!</h3><br><br>
+                            <p>저는 러시아어를 전공했어요<br>
+                                고등학교 제2외국어로 시작해서<br>
+                                꽤 오랫동안 한 가지 언어를 공부했습니다<br>
+                                <br>
+                                그러던 중에 기계번역과 🤖<br>
+                                인공지능에 관심이 생겨서<br>
+                                드넓은 데이터와 알고리즘 세계에<br>
+                                발을 들이게 되었답니다!
+                            </p>
+                        </div>
+                        <div class="footer">
+                            <button class="page_btn before" id="before2"><i class="fa-solid fa-arrow-left-long fa-2x" style="color: #000000;"></i></button>
+                            <p>2/6</p>
+                            <button class="page_btn next" id="next2"><i class="fa-solid fa-arrow-right-long fa-2x"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="profile pop_wrap hidden">
+                    <div class="profile pop">
+                        <div class="header">
+                            <button class="back"><i class="fa-solid fa-angles-left fa-2x"></i></button>
+                            <h1 class="title">좋아하는 것</h2>
+                            <div class="mini_icon"><i class="fa-solid fa-paw fa-2x" style="color: #000000;"></i></div>
+                        </div>
+                        <div class="main">
+                            <div class="pop3_main_wrap">
+                                <a target="_blank" href="https://youtube.com/shorts/jR6uqKayq50?feature=share"><img id="mongja" class="youtube" src="https://yt3.googleusercontent.com/ytc/AOPolaTXkvDmMel_5zSzfO6mHigZPpgp3IIo5fW1cLsBkA=s176-c-k-c0x00ffffff-no-rj-mo" alt=""></a>
+                                <div id="mongja_text" class="youtube_text">
+                                    <p><b>이름 :</b> 몽자</p>
+                                    <p><b>특징 :</b> 사람보다 더<br>&nbsp;&nbsp;&nbsp;사람같은 갱얼쥐</p>
+                                </div>
+                                <div id="hosub_text" class="youtube_text">
+                                    <p><b>이름 :</b> 김호섭<br></p>
+                                    <p><b>특징 :</b> 뉸나~ 하고 우는<br>&nbsp;&nbsp;&nbsp;고양인</p>
+                                </div>
+                                <a target="_blank" href="https://www.youtube.com/shorts/rA8CkSDk1CA"><img id="hosub" class="youtube" src="https://yt3.ggpht.com/3J8DFlJVssePNDGaCUi4rCrERkMgpC2gd2bXdWBvYeTjnjH7MJCLVz0qOiwj-SV9-nX8u_3q5w=s176-c-k-c0x00ffffff-no-rj-mo" alt=""></a>
+                                <h3>click me</h3>
+                                <span><i class="fa-solid fa-share fa-bounce" style="color: #000000;"></i></span>
+                            </div>
+                            
+                        </div>
+                        <div class="footer">
+                            <button class="page_btn before" id="before3"><i class="fa-solid fa-arrow-left-long fa-2x" style="color: #000000;"></i></button>
+                            <p>3/6</p>
+                            <button class="page_btn next" id="next3"><i class="fa-solid fa-arrow-right-long fa-2x"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="profile pop_wrap hidden">
+                    <div class="profile pop">
+                        <div class="header">
+                            <button class="back"><i class="fa-solid fa-angles-left fa-2x"></i></button>
+                            <h1 class="title">취미</h2>
+                            <div class="mini_icon"><i class="fa-solid fa-headphones fa-2x" style="color: #000000;"></i></div>
+                        </div>
+                        <div class="main">
+                            <h3>#음악은 내 삶의 유일한 Drug..</h3><br>
+                            <p>음악을 듣고 노래 부르는 것을 좋아해요<br>
+                                <br>
+                                그 날의 기분에 따라<br>
+                                발라드, 댄스, 팝, 재즈 등등<br>
+                                듣고 싶은 음악 장르가 다양해요!<br>
+                                <br><br>
+                                <h3 id="spotify"><a target="_blank" href="https://open.spotify.com/user/31qa2zntcapzcnr7lnjvfuqexqpm?si=xzRX2ebVSlG5N2LzLY4A-Q&nd=1"><i class="fa-brands fa-spotify" style="color: #000000;"></i> playlist 구경가기</a></h3>
+                            </p>
+                            <div class="equalizer">
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <button class="page_btn before" id="before4"><i class="fa-solid fa-arrow-left-long fa-2x" style="color: #000000;"></i></button>
+                            <p>4/6</p>
+                            <button class="page_btn next" id="next4"><i class="fa-solid fa-arrow-right-long fa-2x"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="profile pop_wrap hidden">
+                    <div class="profile pop">
+                        <div class="header">
+                            <button class="back"><i class="fa-solid fa-angles-left fa-2x"></i></button>
+                            <h1 class="title">운동</h2>
+                            <div class="mini_icon"><i class="fa-solid fa-dumbbell fa-2x" style="color: #000000;"></i></div>
+                        </div>
+                        <div class="main">
+                            
+                            <img class="climbing_img hidden" src="./클라이밍.jpg" alt="">
+                            <div class="climbing_text hidden">
+                                <div class="me">Yeah, It's me!</div>
+                            </div>
+                            <div id="pop6_main_img"><h3>Go to the top!</h3><button id="climbing_btn"><i class="fa-regular fa-image fa-beat fa-2x" style="color: #000000;"></i></button></div>
+                            <p><br><br>클라이밍을 즐겨해요<br>
+                                <br>
+                                클라이밍에도 여러 종류가 있는데<br>
+                                active한 볼더링도 좋아하고<br>
+                                static한 지구력도 좋아합니다<br>
+                                <br>
+                                높은 암벽을 등반하는 운동이지만<br>
+                                실은 높은 곳을 무서워하는 편이랍니다😨<br>
+                            </p>
+                        </div>
+                        <div class="footer">
+                            <button class="page_btn before" id="before5"><i class="fa-solid fa-arrow-left-long fa-2x" style="color: #000000;"></i></button>
+                            <p>5/6</p>
+                            <button class="page_btn next" id="next5"><i class="fa-solid fa-arrow-right-long fa-2x"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="profile pop_wrap hidden">
+                    <div class="profile pop">
+                        <div class="header">
+                            <button class="back"><i class="fa-solid fa-angles-left fa-2x"></i></button>
+                            <h1 class="title">학습</h2>
+                            <div class="mini_icon"><i class="fa-solid fa-chalkboard-user fa-2x" style="color: #000000;"></i></div>
+                        </div>
+                        <div class="main">
+                            <div class="pop6_main_wrap">
+                                <div class="book_wrap">
+                                    <div class="book">
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                        <div></div>
+                                    </div>
+                                    <h3>기술 스택 쌓이는 중...</h3>
+                                </div>
+                                <p><br><br>smhrd 서초 A반에서<br>
+                                    데이터 분석 및 웹 서비스 개발을<br>
+                                    공부하고 있습니다!<br>
+                                    <br>
+                                    A반의 '자바 꽉 잡아'의 팀장을 맡고 있으며,<br>
+                                    <br>
+                                    데이터 분석을 통해<br>
+                                    '돈이 되는' 인사이트😏를 찾아내는<br>
+                                    분석가로 성장하고 있습니다.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <button class="page_btn before" id="before6"><i class="fa-solid fa-arrow-left-long fa-2x" style="color: #000000;"></i></button>
+                            <p>6/6</p>
+                            <button class="page_btn next" id="next6"><i class="fa-solid fa-arrow-right-long fa-2x"></i></button>
+                        </div>
+                    </div>   
+                </div>
+                 
+            </div>
+        </div>         
+
+    <script>
+        // 함수
+        const show = function(x) {
+            x.classList.toggle('hidden');
+        }
+        // .box1
+        const msg_box = document.querySelector('.msg_box');
+        const time = document.querySelector('#time');
+
+        document.querySelector('#instagram').addEventListener('click', ()=>{
+            window.open('https://www.instagram.com/bbbabe_7/')
+        })
+        document.querySelector('#email').addEventListener('click', ()=>{
+            window.open('matilto:chyoum7@gmail.com')
+        })
+        document.querySelector('#chat').addEventListener('click', ()=>{
+            msg_box.classList.remove('hidden');
+            msg_box.style.zIndex = 1000;
+            
+            let today = new Date();
+            let YMD = today.getFullYear() + '/' + (today.getMonth()+1) + '/' + today.getDate();
+            // 오전 오후 구하기
+            let ampm = today.getHours() < 12 ? "오전" : "오후";
+            // 12시간 만들기
+            let h12 = today.getHours() - 12;
+            // 두 자리 minutes 만들기
+                // string.padStart(자리수, 채울 'str')
+            let mi = today.getMinutes();
+            let mi00 = String(mi).padStart(2, '0')
+            
+            let HMS = `${ampm} ${h12}:${mi00}`
+            time.innerHTML = `<p>${YMD}  ${HMS}</p>`;
+        })
+        document.querySelector('#x_btn').addEventListener('click', ()=>{
+            msg_box.classList.add('hidden');
+        })
+        document.querySelector('#send_btn').addEventListener('click', ()=>{
+            alert('메시지가 전송되었습니다😊');
+            msg_box.classList.add('hidden');
+            
+            // 콘솔에 메시지 로그하기
+            const text_title = document.querySelector('#text_title');
+            const line_title = text_title.value.split("\n")
+            const text_area = document.querySelector('#text_area');
+            const line_area = text_area.value.split("\n");
+            let resultString = `Message Title : ${line_title}`;
+            for (let i=0; i<line_area.length; i++) {
+                resultString += '\n';
+                resultString += line_area[i];
+            }
+            console.log(resultString);
+
+            text_title.value = '';
+            text_area.value = '';
+        })
+
+        // .box2
+        const icon = document.querySelectorAll('.icon');
+        const pop_wrap = document.querySelectorAll('.pop_wrap');
+        const back = document.querySelectorAll('.back');
+        const before = document.querySelectorAll('.before');
+        const next = document.querySelectorAll('.next');
+
+        for (let i=0; i<icon.length; i++) {
+            icon[i].addEventListener('click', ()=>{
+                pop_wrap[i].classList.add('fadein');
+                pop_wrap[i].classList.remove('hidden');
+                pop_wrap[i].style.zIndex = 1000;
+            })
+            back[i].addEventListener('click', ()=>{
+                pop_wrap[i].classList.add('hidden');
+                pop_wrap[i].classList.remove('fadein');
+            })
+            before[i].addEventListener('click',()=>{
+                if (i == 0) {
+                    pop_wrap[i].classList.add('hidden');
+                    pop_wrap[i].classList.remove('fadein');
+                    pop_wrap[5].classList.remove('hidden');
+                    pop_wrap[5].style.zIndex = 1000;
+                } else {
+                    pop_wrap[i].classList.add('hidden');
+                    pop_wrap[i].classList.remove('fadein');
+                    pop_wrap[i-1].animation
+                    pop_wrap[i-1].classList.remove('hidden');
+                    pop_wrap[i-1].style.zIndex = 1000;
+                }
+            })
+            next[i].addEventListener('click',()=>{
+                if (i == 5) {
+                    pop_wrap[i].classList.add('hidden');
+                    pop_wrap[i].classList.remove('fadein');
+                    pop_wrap[0].classList.remove('hidden');
+                    pop_wrap[0].style.zIndex = 1000;
+                } else {
+                    pop_wrap[i].classList.add('hidden');
+                    pop_wrap[i].classList.remove('fadein');
+                    pop_wrap[i+1].classList.remove('hidden');
+                    pop_wrap[i+1].style.zIndex = 1000;
+                }
+            })
+        }
+
+        const climbing_img = document.querySelector('.climbing_img');
+        const climbing_text = document.querySelector('.climbing_text');
+        document.querySelector('#climbing_btn').addEventListener('click', ()=>{
+            climbing_text.classList.add('me_ani');
+            climbing_text.classList.remove('hidden');
+            climbing_text.style.zIndex = 1000;
+            climbing_img.classList.add('fadein');
+            climbing_img.classList.remove('hidden');
+            climbing_img.style.zIndex = 1000;
+        })
+        climbing_img.addEventListener('click', ()=>{
+            climbing_text.classList.add('hidden');
+            climbing_img.classList.add('hidden');
+        })
+        document.querySelector('.climbing_text').addEventListener('click', ()=>{
+            climbing_text.classList.add('hidden');
+            climbing_img.classList.add('hidden');
+        })
+
+    </script>
+</body>
+</html>
